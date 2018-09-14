@@ -1,0 +1,25 @@
+.b-mainMenu {
+    background: @majorColor;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+
+    &_cancelPadding {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    &__item {
+        text-transform: uppercase;
+        color: @lightestColor;
+        padding-right: 20px;
+        transition-duration: 0.5s;
+        
+        &:hover {
+            color: @darkColor;
+            text-decoration: none;
+        }
+    }
+}
